@@ -1,0 +1,287 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.fa{
+	color: #000;
+	padding:0 5px;
+}
+
+.fa:hover{
+	color:#8bd1ea;
+}
+
+#navbar{
+	background: url("../../Ressouces/bg_body_2.png") no-repeat;
+	background-position: right;
+	background-color: #fff;
+	height: 220px;
+}
+#right-side{
+	float: right;
+}
+
+header .logo{
+	position: absolute;
+	top: 20px;
+}
+
+header .region{
+	margin-top: 20px;
+}
+#block-social-top{
+	float: right;
+
+}
+
+#block-locale-language{
+	float: right;
+}
+
+#block-locale-language a{
+	color: #000;
+	border-right: 2px solid #000;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 16px;
+	padding:0 5px;
+}
+
+#block-locale-language .last a{
+	border-right: none;
+}
+
+#block-search-form{
+	clear: both;
+}
+
+#edit-search-block-form--2{
+	border-radius: 2px;
+	background: #ecf0f1;
+	width: 200px;
+	height: 37px;
+	float: right;
+}
+
+#block-search-form .glyphicon{
+    color: #000;
+		font-size: 18px;
+		top: 3px;
+}
+
+#block-search-form .btn-primary {
+		background-image: linear-gradient(to bottom,#8bd1ea 0,#8bd1ea 100%);
+    background-color: #8bd1ea;
+    border-color: #8bd1ea;
+		border-radius: 1px;
+
+}
+#block-locale-language ul{
+	list-style: none
+}
+
+#block-locale-language ul li{
+	display: inline-block;
+}
+
+.lead{
+	text-align: right;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    border-right: 4px solid #8bd1ea;
+    padding-right: 7px;
+    margin-top: 35px;
+}
+/*************************main-navigation*****************************/
+#main-navigation{
+	background: url("../../Ressouces/bg_menu.png");
+	background-color: #8bd1ea;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-lapse menu{
+	text-align: center
+}
+
+#main-navigation .menu li {
+	border-right:  2px solid black;
+	margin-left: 5px ;
+}
+#main-navigation .menu li.last {
+	border-right: none;
+}
+
+#main-navigation .menu li>a .caret{
+	display: none;
+}
+#main-navigation ul a{
+	color: black;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.view-content{
+	top: 0px;
+}
+
+#banner{
+	height: 400px;
+	position: relative;
+}
+.carousel-control{
+    background: transparent;
+}
+.carousel-control:focus, .carousel-control:hover {
+    background: transparent;
+}
+.carousel-control .icon-next:before , .carousel-control .icon-prev:before {
+    font-size: 90px;
+    font-weight: normal;
+    font-family: "Time"
+}
+
+.carousel-control.right , .carousel-control.left {
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0, 0, 0, 0) 100%);
+}
+
+#banner .img-responsive{
+	height: 400px !important;
+}
+.carousel-caption{
+	background: rgba(255, 255, 255,.8);
+	width: 380px;
+	min-height: 200px;
+}
+
+.carousel-caption h3{
+	font-size: 40px;
+	text-align: left;
+	margin-left: 30px;
+}
+.carousel-caption a{
+	color:#000;
+	text-decoration: none;
+}
+
+.carousel-caption p{
+	border-top: 1px solid #000;
+	color: #000;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 30px;
+}
+/*****************.main-content*****************************/
+#main-content{
+	background: url("../../Ressouces/bg_body.png")top center;
+	background-size: 100% 50%;
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+#main-content .block-tag-title h3{
+	text-align: center;
+	margin-top: 40%;
+	font-weight: bold;
+	color: #000
+}
+#main-content .event{
+	background: url("../../Ressouces/bg_evt.png") no-repeat top center;
+	background-size: contain;
+	height: 220px;
+}
+#main-content .projet{
+	background: url("../../Ressouces/bg_prt.png") no-repeat top center;
+	background-size: contain;
+	height: 220px;
+}
+
+#main-content .initiative{
+	background: url("../../Ressouces/bg_init.png") no-repeat top center;
+	background-size: contain;
+	height: 220px;
+}
+
+#main-content .collection{
+	background: url("../../Ressouces/bg_col.png") no-repeat top center;
+	background-size: contain;
+	height: 220px;
+}
+
+#main-content .field-title h2{
+	font-size: 20px;
+}
+#main-content .field-subtitle ,
+#main-content .field-date ,
+#main-content .field-artist{
+	text-align: center;
+}
+.main-container .img-responsive{
+	height: 180px !important
+}
+.main-container .field-title{
+	text-align: center;
+}
+.main-container .field-title a{
+	color: #000;
+	text-decoration: none;
+}
+
+/******************************footer**********************************/
+footer .row{
+	background: url("../../Ressouces/bg_footer.png") no-repeat;
+	background-size: 374px 349px;
+	background-position: right;
+	background-color:rgba(139, 209, 234, .5);
+}
+
+footer .row .logo-img{
+	position: absolute;
+	top: -40px;
+	background-color: #fff;
+	padding: 20px;
+}
+
+footer .row .logo-img img{
+	width: 120px;
+	height: 120px
+}
+.logo-img #logo{
+	width: 150px;
+	height: 150px;
+}
+
+footer #block-block-1{
+	border-top: 1px solid #000;
+	padding:20px 3px;
+}
+footer #block-simplenews-12{
+	margin-top: 20px;
+}
+
+footer #block-menu-menu-footer-menu  ul li{
+	display: inline-flex;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+footer #block-menu-menu-footer-menu  ul li a{
+	color: #000
+}
+
+footer #block-simplenews-12 .btn-default {
+    background-image: linear-gradient(to bottom,#8bd1ea 0,#8bd1ea 100%);
+    background-repeat: repeat-x;
+		border-color: #8bd1ea;
+		color: #fff;
+		text-transform: uppercase;
+}
+footer #block-simplenews-12 .btn-default:hover {
+    background-color: #8bd1ea;
+    background-position: 0 -15px;
+}
+#copyright{
+	background: #000;
+	text-align: center;
+	padding: 15px 0;
+	color: #fff
+}
